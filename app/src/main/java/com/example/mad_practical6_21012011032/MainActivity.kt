@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra(MyService.PLAYERCONSTANT,"PAUSE")
         stopService(intent)
 
+
     }
 
 }
